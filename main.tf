@@ -18,6 +18,6 @@ resource "aws_s3_bucket" "infraSity" {
     enabled = true
   }
   tags = {
-    name = "Sidvjsingh"
+    made_by = "Sidvjsingh"
   }
 }
