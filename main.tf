@@ -17,4 +17,7 @@ resource "aws_s3_bucket" "infraSity" {
   versioning {
     enabled = true
   }
+  tags = {
+    made_by = "Sidvjsingh"
+  }
 }
